@@ -34,7 +34,7 @@ public class App
         {
             ResultModel model = new ResultModel();
             model.setId(55);
-            model.setName("Cat");
+            model.setName("Cats");
             model.setMycomplexObject(new Boolean(true));
             models.add(model);
         }
