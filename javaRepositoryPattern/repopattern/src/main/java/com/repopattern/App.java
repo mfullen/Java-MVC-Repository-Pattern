@@ -45,10 +45,17 @@ public class App
             model.setMycomplexObject(new Boolean(true));
             models.add(model);
         }
+        {
+            ResultModel model = new ResultModel();
+            model.setId(33);
+            model.setName("Batman");
+            model.setMycomplexObject(new Boolean(true));
+            models.add(model);
+        }
 
         //create the controller
         final ResultsModelController controller = new ResultsModelController();
-        //handle the incoming message with data 
+        //handle the incoming message with data
         controller.handleIncomingMessage(models);
 
         //the repository implmenetation we are using
